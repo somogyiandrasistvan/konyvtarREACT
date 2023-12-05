@@ -1,0 +1,12 @@
+.termekek {
+  gap: 5px;
+  display: flex;
+  flex-direction: row;
+}
+@media screen and (max-width: 800px) {
+    .termekek {
+        gap: 5px;
+        display: flex;
+        flex-direction: column;
+      }
+}
